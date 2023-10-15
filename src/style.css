@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.upperHeaderDiv{
+    @apply ml-4 border-r-2 pr-2 border-blue-500 flex
+}
+.navLi{
+    @apply mr-6 hover:text-blue-700 cursor-pointer
+}
+.serviceH3{
+    @apply font-bold text-xl pb-3 text-center
+}
+.service{
+    @apply bg-white p-8 rounded-md ml-10 shadow-gray-300 shadow-2xl
+}
+.serviceImg{
+    @apply w-16 m-auto pb-4 rounded-full
+}
