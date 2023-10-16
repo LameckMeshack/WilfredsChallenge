@@ -17,3 +17,12 @@
 .serviceImg{
     @apply w-16 m-auto pb-4 rounded-full
 }
+.service2{
+    @apply bg-white p-6 rounded-md ml-5 flex
+}
+.service2H3{
+    @apply font-bold text-lg p-3
+}
+.service2Img{
+    @apply w-52 rounded-full mt-6
+}
