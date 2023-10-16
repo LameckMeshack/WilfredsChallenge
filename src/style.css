@@ -26,3 +26,12 @@
 .service2Img{
     @apply w-52 rounded-full mt-6
 }
+.statNum{
+    @apply font-bold text-5xl text-blue-800 pt-10
+}
+.statH3{
+    @apply font-semibold text-xl
+}
+.stat{
+    @apply pl-5
+}
