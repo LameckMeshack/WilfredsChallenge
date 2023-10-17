@@ -36,11 +36,26 @@
     @apply pl-5
 }
 .blog1Content{
-    @apply bg-gray-100 rounded-md p-5 -mt-12 z-20 relative w-64 m-auto shadow-2xl shadow-gray-500
+    @apply bg-gray-100 rounded-md p-5 -mt-12 z-20 relative w-64 m-auto shadow-xl shadow-gray-300
 }
 .blog1H2{
     @apply font-semibold text-xl text-center pb-3
 }
 .blog1p{
     @apply text-blue-700 font-semibold text-sm text-center
+}
+.priceHolder{
+    @apply bg-gray-50 border-2 pb-16 border-gray-200 rounded-md p-4 hover:bg-gradient-to-r from-blue-900 to-blue-600 hover:text-white
+}
+.priceH2{
+    @apply font-semibold text-lg text-center pt-5
+}
+.priceP{
+    @apply font-semibold text-gray-500 text-center pt-3 pb-5 hover:text-gray-50
+}
+.priceItem{
+    @apply flex justify-between
+}
+.priceBanner{
+    @apply bg-blue-600 p-1 rounded-r-full w-20 text-white -ml-4
 }
