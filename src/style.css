@@ -59,3 +59,15 @@
 .priceBanner{
     @apply bg-blue-600 p-1 rounded-r-full w-20 text-white -ml-4
 }
+.blogHolder{
+   @apply bg-gray-50 h-80 ml-10 w-5/12 rounded-md shadow-xl
+}
+.blogImg{
+    @apply rounded-md m-auto w-10/12 pt-3
+}
+.blogBanner{
+    @apply bg-gradient-to-r from-blue-900 to-blue-700 p-1 rounded-md text-white w-24 text-center -mt-14 z-20 relative float-right mr-12
+}
+.blogBanner2{
+    @apply bg-gradient-to-r from-blue-900 to-blue-700 p-1 rounded-md text-white w-44 text-center -mt-14 z-20 relative float-right mr-12
+}
