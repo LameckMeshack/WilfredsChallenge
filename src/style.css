@@ -71,3 +71,6 @@
 .blogBanner2{
     @apply bg-gradient-to-r from-blue-900 to-blue-700 p-1 rounded-md text-white w-44 text-center -mt-14 z-20 relative float-right mr-12
 }
+.footerLi{
+    @apply pl-2 hover:text-blue-600 cursor-pointer font-light text-sm
+}
