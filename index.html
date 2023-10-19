@@ -11,7 +11,7 @@
     <header>
         <div class="bg-blue-800 p-3 text-white bg-gradient-to-tr w-full"><!--upper header section-->
             <div class="flex justify-between text-sm w-11/12 m-auto">
-            <div class="flex w-9/12 m-auto">
+            <div class="block w-full md:flex w-9/12 m-auto">
                 <div class="upperHeaderDiv">
                     <div class=" mr-4">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
@@ -40,22 +40,22 @@
                     <div>05 kandi BR. New York</div></div>
             </div>
             <div>
-                <div class="flex" id="home">
-                    <div class="mr-4 border-r-2 border-blue-500 pr-5 flex">
+                <div class="block md:flex" id="home">
+                    <div class="ml-4 border-r-2 border-blue-500 pr-5 mr- flex">
                         <div class="mr-3">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                               </svg>                              
                         </div>
-                        <div>
-                            08:00am-6:00pm
+                        <div class="w-14 md:w-28">
+                            <h3 class="text-sm">08:00am-6:00pm</h3>
                         </div>
                         </div>
-                    <div class="flex">
-                        <div><img class="w-5 mr-3" src="public/images/icons8-facebook.svg"></div>
-                        <div><img  class="w-5 mr-3" src="public/images/icons8-twitter.svg"></div>
-                        <div><img  class="w-4 mr-3"src="public/images/icons8-pinterest.svg"></div>
-                        <div><img  class="w-5 "src="public/images/icons8-instagram (2).svg"></div>
+                    <div class="pt-4 flex md:pt-0">
+                        <div><img class="m-0  w-4 md:w-5 mr-3" src="public/images/icons8-facebook.svg"></div>
+                        <div><img  class="m-0 w-4 md:w-5 mr-3" src="public/images/icons8-twitter.svg"></div>
+                        <div><img  class="m-0 w-4 md:w-5 mr-3"src="public/images/icons8-pinterest.svg"></div>
+                        <div><img  class="m-0 w-4 md:w-5 mr-3"src="public/images/icons8-instagram (2).svg"></div>
                     </div>
                 </div>
             </div>
@@ -63,22 +63,22 @@
         </div>
         <div><!--nav section-->
             <div class="w-full bg-gray-50 relative">
-                <div class="flex w-10/12 justify-between m-auto p-10">
+                <div class="flex w-full md:w-10/12 justify-between m-auto p-5">
                     <div class="flex">
                         <div>
-                            <img class="w-12 mr-3 rounded-full" src="public/images/Screenshot 2023-10-14 201605.png">
+                            <img class="w-52 md:w-12 mr-3 rounded-full" src="public/images/Screenshot 2023-10-14 201605.png">
                         </div>
                         <div>
                             <h2 class="text-blue-950 text-3xl font-bold">Braintech</h2>
                         </div>
                     </div>
                     <div>
-                        <ul class="flex font-semibold">
-                            <li class="navLi"><a href="#home">Home +</a></li>
-                            <li class="navLi"><a href="#about">About +</a></li>
-                            <li class="navLi"><a href="#services">Services +</a></li>
-                            <li class="navLi"><a href="#stat">Pages +</a></li>
-                            <li class="navLi"><a href="#blog">Blog +</a></li>
+                        <ul class="pl-2 block md:flex font-semibold mt-2">
+                            <li class="navLi"><a href="#home">Home</a></li>
+                            <li class="navLi"><a href="#about">About</a></li>
+                            <li class="navLi"><a href="#services">Services</a></li>
+                            <li class="navLi"><a href="#stat">Pages</a></li>
+                            <li class="navLi"><a href="#blog">Blog</a></li>
                             <li class="navLi"><a href="#footer">Contact</a></li>
                             <li class="navLi">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 ml-6 h-6 ">
@@ -94,22 +94,21 @@
     </header>
     <main>
         <section><!--homepage section-->
-            <div class="bg-cover bg-no-repeat w-full h-screen " style="background-image:url(public/images/Screenshot\ 2023-10-14\ 194332.png); margin-top:-120px;border-bottom-right-radius:15%; border-bottom-left-radius:15%;">
+            <div class="bg-cover bg-no-repeat w-full h-screen " style="background-image:url(public/images/Screenshot\ 2023-10-14\ 194332.png); margin-top:-80px;border-bottom-right-radius:15%; border-bottom-left-radius:15%;">
                <div class="m-auto w-8/12 pt-72 p-10 font-sans">
-                <div>
+                <div class="text-white">
                     <p>
-                        <h3 class="text-white text-4xl font-bold pl-56">We Increase Your</h3>
-                        <h2 class="text-white text-8xl font-bold mt-3">Business Success</h2>
-                        <h4 class="text-white text-xl font-bold pl-48 mt-6">Using Modern Technology and IT Services</h4>
+                        <h3 class="text-2xl md:text-4xl font-bold text-center">We Increase Your</h3>
+                        <h2 class="text-4xl md:text-8xl font-bold mt-3">Business Success</h2>
+                        <h4 class="text-lg md:text-xl font-bold text-center mt-6">Using Modern Technology and IT Services</h4>
                     </p>   
                 </div>
-                <div class=" flex mt-10 ml-64">
+                <div class="mt-5 md:mt-10 flex justify-center">
                     <div>
-                        <button class="bg-white p-4 rounded-md w-48 text-blue-600 font-bold">Free Consultation</button>
+                        <button class="w-48 md p-0:w-48 bg-white p-4 rounded-md text-blue-600 font-bold">Free Consultation</button>
                     </div>
-                    <div class=" ml-5 rounded-full shadow-2xl shadow-blue-600">
-                        <img class="w-16 rounded-full p-1" src="public/images/Screenshot 2023-10-15 101224.png" alt="play Icon">
-                    <!-- <img class="w-20 rounded-full p-1" src="https://i.pinimg.com/originals/a7/df/56/a7df56bd45fa03724f0261cc04133ad6.gif" alt="play Icon"> -->
+                    <div class="ml-0 md:ml-5 rounded-full shadow-2xl shadow-blue-600">
+                        <img class="w-32 md:w-16 rounded-full p-1" src="public/images/Screenshot 2023-10-15 101224.png" alt="play Icon">
                     </div>
                 </div>
                </div>  
@@ -117,7 +116,7 @@
         </section>
         <section><!--services section-->
             <div class="w-full">
-                <div class="w-10/12 m-auto flex -mt-5">
+                <div class="w-full block md:flex w-10/12 m-auto -mt-5">
                     <div class="service">
                         <img class="serviceImg" src="public/images/Screenshot 2023-10-15 000443.png">
                         <h3 class="serviceH3">IT Management</h3>
@@ -151,11 +150,11 @@
         </section>
         <section><!--about section-->
             <div class="w-full" id="about">
-                <div class="w-10/12 flex justify-between m-auto pt-36">
+                <div class="block md:flex w-10/12 justify-between m-auto pt-36">
                     <div>
-                        <img class="w-9/12" src="public/images/about-2.webp">
+                        <img class="w-full md:w-9/12" src="public/images/about-2.webp">
                     </div>
-                    <div class="w-6/12">
+                    <div class="pt-10 md:w-6/12">
                         <div class="flex">
                             <div class="border-t-4 border-blue-600"><span class="invisible">---</span></div>
                             <div class="border-t-4 border-blue-600 ml-3"><span class="invisible">-------</span></div>
@@ -177,9 +176,9 @@
             <div class="bg-gray-100 pt-28 w-full pb-20" id="services">
                 <div class="w-5/12 m-auto pb-14">
                     <h2 class="pb-5 text-center text-blue-700">SERVICES</h2>
-                    <h3 class="text-center text-4xl font-bold">We Are Offering All Kinds of IT Solutions Services</h3>
+                    <h3 class="text-2xl text-left md:text-4xl text-center font-bold">We Are Offering All Kinds of IT Solutions Services</h3>
                 </div>
-                <div class="flex w-10/12 m-auto">
+                <div class="block md:flex w-10/12 m-auto">
                     <div class="service2">
                         <div>
                             <img class="service2Img" src="public/images/Screenshot 2023-10-15 223432.png" alt="reactimg">
@@ -214,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex w-10/12 m-auto pt-5 pb-5">
+                <div class="block md:flex w-10/12 m-auto pt-5 pb-5">
                     <div class="service2">
                         <div>
                             <img class="service2Img" src="public/images/Screenshot 2023-10-15 094349.png" alt="CloudIcon">
@@ -260,11 +259,11 @@
         </section>
         <section><!--call section-->
             <div class="bg-gradient-to-r from-blue-950 to-blue-900 h-1/6">
-                <div class="flex w-10/12 m-auto">
+                <div class="block md:flex w-10/12 m-auto">
                     <div class="">
                         <img class="auto" src="public/images/contact-here.webp">
                     </div>
-                    <div class=" text-white w-9/12 pl-20">
+                    <div class="mt-8 text-white pb-7 md:text-white w-9/12 pl-20">
                         <div class="w-28 m-auto">
                             <img class="rounded-full w-auto mb-7 -mt-1" src="https://i.pinimg.com/originals/5c/2c/5f/5c2c5f7b2e095ac99d9e5677214267eb.gif" alt="call Icon">
                         </div>
@@ -282,7 +281,7 @@
         </section>
         <section><!--statistics section-->
             <div class="w-full pt-14 pb-14" id="stat">
-                <div class="w-10/12 m-auto flex">
+                <div class="block p-5 md:flex w-10/12 m-auto">
                     <div class="bg-gradient-to-r from-blue-800 to-blue-950 p-5 pt-16 pb-16 rounded-md text-white">
                         <h4 class="text-sm font-semibold text-left">WORKING PROCESS</h4>
                         <h3 class="text-3xl font-bold leading-9 text-left pt-6 pb-16">Our Working Process-How We Work For Our Customers</h3>
@@ -290,8 +289,8 @@
                             <a href="#" class=" bg-gradient-to-r from-blue-700 to-blue-500 rounded-md p-3">Contact Us</a>
                         </div>
                     </div>
-                    <div class="ml-16">
-                        <div class="flex">
+                    <div class="ml-0 md:ml-16">
+                        <div class="block md:flex">
                             <div class="stat">
                                 <h2 class="statNum">1.</h2>
                                 <h3 class="statH3">Discovery</h3>
@@ -310,7 +309,7 @@
                             </div>
                             <div></div>
                         </div>
-                        <div class="flex">
+                        <div class="block md:flex">
                             <div class="stat">
                                 <h2 class="statNum">3.</h2>
                                 <h3 class="statH3">Execute</h3>
@@ -334,8 +333,8 @@
             </div>
         </section>
         <section>
-            <div class="bg-blue-900 w-full pt-14 pb-20 h-96">
-                <div class="grid grid-cols-3  w-11/12 m-auto justify-around">
+            <div class="h-full md:h-96 bg-blue-900 w-full pt-14 pb-20">
+                <div class="block md:grid grid-cols-3  w-11/12 m-auto justify-around">
                     <div>
                         <img class="w-96 h-96 object-fill rounded-md" src="public/images/Screenshot 2023-10-16 192440.png" alt="people in a meeting">
                         <div class="blog1Content">
@@ -345,7 +344,7 @@
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div class="mt-8 md:mt-0">
                         <img class="h-96 w-auto object-fill  ml-6 mr-6 rounded-md" src="public/images/Screenshot 2023-10-16 194410.png" alt="people in a meeting">
                         <div class="blog1Content">
                             <h2 class="blog1H2">Analytic Solutions</h2>
@@ -354,7 +353,7 @@
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div class="mt-8 md:mt-0">
                         <img class="w-80 h-96 object-fill ml-10 rounded-md" src="public/images/Screenshot 2023-10-16 192513.png" alt="people in a meeting">
                         <div class="blog1Content">
                             <h2 class="blog1H2">Product Design</h2>
@@ -367,8 +366,8 @@
             </div>
         </section>
         <section><!--pricing section-->
-            <div class="w-full mt-40 pb-20">
-                <div class="w-9/12 flex m-auto justify-between">
+            <div class=" mt- md:mt-40 w-full pb-20">
+                <div class="block md:flex w-9/12 m-auto justify-between">
                     <div class="priceHolder" id="priceHolder"><!--first pricing-->
                         <div class="priceBanner">
                             <h2 class="text-sm">SILVER</h2>
@@ -503,8 +502,8 @@
             <div class="w-full bg-gradient-to-r from-gray-900 to-blue-900 pt-16 pb-16 text-white">
                 <h3 class="text-sm pt-8 text-center">TESTIMONIAL</h3>
                 <h2 class="text-3xl pt-4 text-center font-bold">What Saying Our Customers</h2>
-                <div class="w-9/12 flex m-auto justify-between pt-12">
-                    <div class="p-9 bg-gradient-to-l from-gray-700 to-blue-800 rounded-md w-8/12">
+                <div class="block md:flex w-9/12 m-auto justify-between pt-12">
+                    <div class="w-full mt-10 md:w-8/12 p-9 bg-gradient-to-l from-gray-700 to-blue-800 rounded-md mr-10">
                         <div>
                             <img class="w-32 m-auto" src="public/images/Screenshot_2023-10-17_212117-removebg-preview.png">
                         </div>
@@ -512,7 +511,7 @@
                             Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway.
                         </p>
                     </div>
-                    <div class="p-9 ml-10 bg-gradient-to-l from-gray-700 to-blue-800 rounded-md w-8/12">
+                        <div class="w-full ml-0 mt-10 md:w-8/12 p-9 bg-gradient-to-l from-gray-700 to-blue-800 rounded-md">
                         <div>
                             <img class="w-32 m-auto" src="public/images/Screenshot_2023-10-17_212117-removebg-preview.png">
                         </div>
@@ -527,11 +526,11 @@
             <div class="w-full pt-16 pb-16" id="blog">
                 <h3 class="text-blue-600 text-sm text-center">BLOG</h3>
                 <h2 class="text-3xl text-center font-semibold">Read Our Latest Tips & Tricks</h2>
-                <div class="w-10/12 m-auto flex justify-between pt-10">
+                <div class="block md:flex w-9/12 m-auto justify-between pt-10">
                     <div class="blogHolder ">
                         <img class="blogImg" src="public/images/blog_7-768x480.webp">
                         <p class="blogBanner">IT Services</p>
-                        <div class="flex justify-between w-8/12 ml-8 p-4">
+                        <div class="flex justify-between w-8/12 ml-8 pt-4">
                             <div class="flex">
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-blue-700">
@@ -566,7 +565,7 @@
                     <div  class="blogHolder">
                         <img class="blogImg" src="public/images/blog_6-768x480.webp">
                         <p class="blogBanner2">Software Development</p>
-                        <div class="flex justify-between w-8/12 ml-8 p-4">
+                        <div class="flex justify-between w-8/12 ml-8 pt-4">
                             <div class="flex">
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-blue-700">
@@ -601,7 +600,7 @@
                     <div class="blogHolder">
                         <img class="blogImg" src="public/images/blog_4-768x480.webp">
                         <p class="blogBanner2">Web Development</p>
-                        <div class="flex justify-between w-8/12 ml-8 p-4">
+                        <div class="flex justify-between w-8/12 ml-8 pt-4">
                             <div class="flex">
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-blue-700">
@@ -638,46 +637,46 @@
         </section>
         <section><!-- sponsors section -->
             <div class="pt-16 bg-gradient-to-r from-gray-900 to-blue-800 pb-10 w-full">
-                <div class="w-10/12 m-auto flex justify-between text-white pt-6">
-                    <div class="flex">
+                <div class="block pt-2  md:flex pt-6 w-10/12 m-auto justify-between text-white">
+                    <div class="block justify-center md:flex">
                         <div>
-                            <img class="w-96" src="public/images/Screenshot_2023-10-18_200101-removebg-preview.png">
+                            <img class="w-44 md:w-96" src="public/images/Screenshot_2023-10-18_200101-removebg-preview.png">
                         </div>
-                        <div class="mt-3"> 
+                        <div class="mt-0 md:mt-3"> 
                             <h3 class="font-semibold"><span class="text-3xl">Slab</span><br>Technology</h3>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div class="block md:flex">
                         <div>
-                            <img class="w-11/12" src="public/images/Screenshot_2023-10-18_200121-removebg-preview.png">
+                            <img class="w-44 md:w-11/12" src="public/images/Screenshot_2023-10-18_200121-removebg-preview.png">
                         </div>
-                        <div class="mt-3">
+                        <div class="mt-0 md:mt-3">
                             <h3 class="text-lg font-semibold"><span class="text-xl font-normal">CODESLESS</span><br>IT company</h3>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div class="block md:flex">
                         <div>
-                            <img class="w-64" src="public/images/Screenshot_2023-10-18_200149-removebg-preview.png">
+                            <img class="w-44 md:w-64" src="public/images/Screenshot_2023-10-18_200149-removebg-preview.png">
                         </div>
-                        <div class="w-80 mt-3">
+                        <div class="mt-0 md:mt-3 w-80">
                             <h2 class="text-2xl font-semibold italic">Orange</h2>
                             <h3 class="text-sm">CORE TECHNOLOGY</h3>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div class="block md:flex">
                         <div>
-                            <img src="public/images/Screenshot_2023-10-18_200157-removebg-preview.png">
+                            <img class="w-44 md:w-auto" src="public/images/Screenshot_2023-10-18_200157-removebg-preview.png">
                         </div>
-                        <div class="mt-3">
+                        <div class="mt-0 md:mt-3">
                             <h2 class="text-lg">TECHHUB</h2>
                             <h3 class="text-xl font-semibold">Technology</h3>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div class="block md:flex">
                         <div>
-                            <img src="public/images/Screenshot_2023-10-18_200136-removebg-preview.png">
+                            <img class="w-44 md:w-auto" src="public/images/Screenshot_2023-10-18_200136-removebg-preview.png">
                         </div>
-                        <div class="mt-3 text-whi">
+                        <div class="mt-0 md:mt-3">
                             <h2 class="font-semibold text-xl">GREENLAB</h2>
                             <h3 class="text-sm">TECHNOLOGY</h3>
                         </div>
@@ -687,7 +686,7 @@
         </section>
         <footer>
             <div class="bg-gradient-to-r from-gray-300 to-gray-100 w-full" id="footer">
-                <div class="pt-14 w-11/12 m-auto flex pb-14">
+                <div class="block md:flex pt-14 w-11/12 m-auto pb-14">
                     <div>
                         <div class="flex pb-5">
                             <div>
@@ -728,7 +727,7 @@
                             </div>
                             <div class="pl-5">
                                 <p>
-                                    374 FA Tower,William S Blvd 2721, IL, USA
+                                    2nd Floor,Huduma Building,Archives,Nairobi,Kenya
                                 </p>
                             </div>
                         </div>
@@ -740,7 +739,7 @@
                             </div>
                             <div class="pl-5">
                                 <p>
-                                    (+880)155 69569 365
+                                    (+254)755 695 693
                                 </p>
                             </div>
                         </div>
@@ -784,11 +783,11 @@
                 </div>
             </div>
             <div class="w-full bg-gradient-to-r from-gray-300 to-gray-100">
-                <div class="w-10/12 justify-between pt-5 flex m-auto pb-5 ">
+                <div class="w-full block md:flex w-10/12 justify-between pt-5 m-auto pb-5 ">
                     <div>
-                        <p class="font-light text-sm">@ 2023 All Rights Reserved Design & Developed  By RSTheme</p>
+                        <p class="font-light text-sm">@ 2023 All Rights Reserved Design & Developed  By Wilfred Mutwiri</p>
                     </div>
-                    <div>
+                    <div class="mt-5 md:mt-0">
                         <ul class="flex">
                             <li class="footerLi"><a href="#home">Home</a></li>
                             <li class="footerLi"><a href="#about">About</a></li>

@@ -12,13 +12,13 @@
     @apply font-bold text-xl pb-3 text-center
 }
 .service{
-    @apply bg-white p-8 rounded-md ml-10 shadow-gray-300 shadow-2xl
+    @apply mt-6 md:-mt-6 bg-white p-8 rounded-md ml-10 shadow-gray-300 shadow-2xl
 }
 .serviceImg{
     @apply w-16 m-auto pb-4 rounded-full
 }
 .service2{
-    @apply bg-white p-6 rounded-md ml-5 flex
+    @apply mt-3 md:bg-white p-6 rounded-md ml-5 flex
 }
 .service2H3{
     @apply font-bold text-lg p-3
@@ -45,7 +45,7 @@
     @apply text-blue-700 font-semibold text-sm text-center
 }
 .priceHolder{
-    @apply bg-gray-50 border-2 pb-16 border-gray-200 rounded-md p-4 hover:bg-gradient-to-r from-blue-900 to-blue-600 hover:text-white
+    @apply mt-8 md:bg-gray-50 border-2 pb-16 border-gray-200 rounded-md p-4 hover:bg-gradient-to-r from-blue-900 to-blue-600 hover:text-white
 }
 .priceH2{
     @apply font-semibold text-lg text-center pt-5
@@ -60,7 +60,7 @@
     @apply bg-blue-600 p-1 rounded-r-full w-20 text-white -ml-4
 }
 .blogHolder{
-   @apply bg-gray-50 h-80 ml-10 w-5/12 rounded-md shadow-xl
+   @apply w-full md:w-4/12 bg-gray-50 h-72 rounded-md shadow-xl m-4
 }
 .blogImg{
     @apply rounded-md m-auto w-10/12 pt-3
