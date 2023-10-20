@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.upperHeaderDiv{
+    @apply ml-4 border-r-2 pr-2 border-blue-500 flex
+}
+.navLi{
+    @apply mr-6 hover:text-blue-700 cursor-pointer
+}
+.serviceH3{
+    @apply font-bold text-xl pb-3 text-center
+}
+.service{
+    @apply mt-6 md:-mt-6 bg-white p-8 rounded-md ml-10 shadow-gray-300 shadow-2xl
+}
+.serviceImg{
+    @apply w-16 m-auto pb-4 rounded-full
+}
+.service2{
+    @apply mt-3 md:bg-white p-6 rounded-md ml-5 flex
+}
+.service2H3{
+    @apply font-bold text-lg p-3
+}
+.service2Img{
+    @apply w-52 rounded-full mt-6
+}
+.statNum{
+    @apply font-bold text-5xl text-blue-800 pt-10
+}
+.statH3{
+    @apply font-semibold text-xl
+}
+.stat{
+    @apply pl-5
+}
+.blog1Content{
+    @apply bg-gray-100 rounded-md p-5 -mt-12 z-20 relative w-64 m-auto shadow-xl shadow-gray-300
+}
+.blog1H2{
+    @apply font-semibold text-xl text-center pb-3
+}
+.blog1p{
+    @apply text-blue-700 font-semibold text-sm text-center
+}
+.priceHolder{
+    @apply mt-8 md:bg-gray-50 border-2 pb-16 border-gray-200 rounded-md p-4 hover:bg-gradient-to-r from-blue-900 to-blue-600 hover:text-white
+}
+.priceH2{
+    @apply font-semibold text-lg text-center pt-5
+}
+.priceP{
+    @apply font-semibold text-gray-500 text-center pt-3 pb-5 hover:text-gray-50
+}
+.priceItem{
+    @apply flex justify-between
+}
+.priceBanner{
+    @apply bg-blue-600 p-1 rounded-r-full w-20 text-white -ml-4
+}
+.blogHolder{
+   @apply w-full md:w-4/12 bg-gray-50 h-72 rounded-md shadow-xl m-4
+}
+.blogImg{
+    @apply rounded-md m-auto w-10/12 pt-3
+}
+.blogBanner{
+    @apply bg-gradient-to-r from-blue-900 to-blue-700 p-1 rounded-md text-white w-24 text-center -mt-14 z-20 relative float-right mr-12
+}
+.blogBanner2{
+    @apply bg-gradient-to-r from-blue-900 to-blue-700 p-1 rounded-md text-white w-44 text-center -mt-14 z-20 relative float-right mr-12
+}
+.footerLi{
+    @apply pl-2 hover:text-blue-600 cursor-pointer font-light text-sm
+}
