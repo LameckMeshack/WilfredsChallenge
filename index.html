@@ -9,7 +9,7 @@
 </head>
 <body class="scroll-smooth">
     <header>
-        <div class="bg-blue-800 p-3 text-white bg-gradient-to-tr w-full"><!--upper header section-->
+        <div class="bg-blue-800 p-3 text-white bg-gradient-to-tr w-full relative z-30"><!--upper header section-->
             <div class="flex justify-between text-sm w-11/12 m-auto">
             <div class="block w-full md:flex w-9/12 m-auto">
                 <div class="upperHeaderDiv">
@@ -37,7 +37,7 @@
                           </svg>
                           
                     </div>
-                    <div>05 kandi BR. New York</div></div>
+                    <div>2nd Floor,Archives.Nairobi,Kenya</div></div>
             </div>
             <div>
                 <div class="block md:flex" id="home">
@@ -62,18 +62,23 @@
             </div>
         </div>
         <div><!--nav section-->
-            <div class="w-full bg-gray-50 relative">
-                <div class="flex w-full md:w-10/12 justify-between m-auto p-5">
+            <div class="w-full bg-gray-50 relative z-30">
+                <div class="flex w-full h-20 md:w-10/12 justify-between m-auto p-5" id="navHeight">
                     <div class="flex">
                         <div>
-                            <img class="w-52 md:w-12 mr-3 rounded-full" src="public/images/Screenshot 2023-10-14 201605.png">
+                            <img class="w-10 md:w-12 mr-3 rounded-full" src="public/images/Screenshot 2023-10-14 201605.png">
                         </div>
                         <div>
                             <h2 class="text-blue-950 text-3xl font-bold">Braintech</h2>
                         </div>
                     </div>
-                    <div>
-                        <ul class="pl-2 block md:flex font-semibold mt-2">
+                    <div class="-mr-44 visible md:invisible" id="menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                          </svg>  
+                    </div>
+                    <div class="invisible bg-black h-52 text-white p-4 ml-14 md:visible" id="nav">
+                        <ul class="block md:flex font-semibold mt-2">
                             <li class="navLi"><a href="#home">Home</a></li>
                             <li class="navLi"><a href="#about">About</a></li>
                             <li class="navLi"><a href="#services">Services</a></li>
@@ -94,24 +99,27 @@
     </header>
     <main>
         <section><!--homepage section-->
-            <div class="bg-cover bg-no-repeat w-full h-screen " style="background-image:url(public/images/Screenshot\ 2023-10-14\ 194332.png); margin-top:-80px;border-bottom-right-radius:15%; border-bottom-left-radius:15%;">
-               <div class="m-auto w-8/12 pt-72 p-10 font-sans">
-                <div class="text-white">
-                    <p>
-                        <h3 class="text-2xl md:text-4xl font-bold text-center">We Increase Your</h3>
-                        <h2 class="text-4xl md:text-8xl font-bold mt-3">Business Success</h2>
-                        <h4 class="text-lg md:text-xl font-bold text-center mt-6">Using Modern Technology and IT Services</h4>
-                    </p>   
-                </div>
-                <div class="mt-5 md:mt-10 flex justify-center">
-                    <div>
-                        <button class="w-48 md p-0:w-48 bg-white p-4 rounded-md text-blue-600 font-bold">Free Consultation</button>
+            <div class="bg-cover bg-no-repeat w-full h-screen" style="background-image:url(public/images/Screenshot\ 2023-10-20\ 141914.png); margin-top:-0px;border-bottom-right-radius:15%; border-bottom-left-radius:15%;max-height:600px ;">
+                <div class="absolute inset-0 bg-black opacity-60">
+                    <div class="absolute inset-0 items-center justify-center">
+                        <div class="m-auto w-8/12 pt-72 p-10 font-sans">
+                            <div class="text-white">
+                                <p>
+                                    <h3 class="text-2xl md:text-4xl font-bold text-center">We Increase Your</h3>
+                                    <h2 class="text-4xl md:text-8xl font-bold mt-3">Business Success</h2>
+                                    <h4 class="text-lg md:text-xl font-bold text-center mt-6">Using Modern Technology and IT Services</h4>
+                                </p>
+                            </div>
+                            <div class="mt-5 md:mt-10 flex justify-center">
+                                <div><button class="w-48 md p-0:w-48 bg-white p-4 rounded-md text-blue-600 font-bold">Free Consultation</button>
+                                </div>
+                                <div class="ml-0 md:ml-5 rounded-full shadow-2xl shadow-blue-600">
+                                    <img class="w-32 md:w-16 rounded-full p-1" src="public/images/Screenshot 2023-10-15 101224.png" alt="play Icon">
+                                </div>
+                            </div>
+                        </div> 
                     </div>
-                    <div class="ml-0 md:ml-5 rounded-full shadow-2xl shadow-blue-600">
-                        <img class="w-32 md:w-16 rounded-full p-1" src="public/images/Screenshot 2023-10-15 101224.png" alt="play Icon">
-                    </div>
-                </div>
-               </div>  
+                </div> 
             </div>
         </section>
         <section><!--services section-->
@@ -267,9 +275,9 @@
                         <div class="w-28 m-auto">
                             <img class="rounded-full w-auto mb-7 -mt-1" src="https://i.pinimg.com/originals/5c/2c/5f/5c2c5f7b2e095ac99d9e5677214267eb.gif" alt="call Icon">
                         </div>
-                        <h2 class="text-center font-bold text-xl pb-4">CALL US 24/7</h2>
-                        <h3 class="text-center font-bold text-3xl pb-4">(+123) 456-9989</h3>
-                        <p class="text-center font-semibold text-xl pb-8">
+                        <h2 class="text-left md:text-center font-bold text-xl pb-4">CALL US 24/7</h2>
+                        <h3 class="text-left md:text-center font-bold text-3xl pb-4">(+123) 456-9989</h3>
+                        <p class="text-left md:text-center font-semibold text-xl pb-8">
                             Have an idea or project for in your mind call us or schedule an appointment. Our representatives will reply shortly
                         </p>
                         <div class="bg-gradient-to-r from-blue-800 to-blue-700 rounded-md p-2 m-auto mt-10 w-36">
@@ -637,12 +645,12 @@
         </section>
         <section><!-- sponsors section -->
             <div class="pt-16 bg-gradient-to-r from-gray-900 to-blue-800 pb-10 w-full">
-                <div class="block pt-2  md:flex pt-6 w-10/12 m-auto justify-between text-white">
+                <div class="block pl-6 md:flex pt-6 w-10/12 m-auto justify-between text-white">
                     <div class="block justify-center md:flex">
                         <div>
                             <img class="w-44 md:w-96" src="public/images/Screenshot_2023-10-18_200101-removebg-preview.png">
                         </div>
-                        <div class="mt-0 md:mt-3"> 
+                        <div class="mt-0 pl-14 md:mt-3"> 
                             <h3 class="font-semibold"><span class="text-3xl">Slab</span><br>Technology</h3>
                         </div>
                     </div>
@@ -650,7 +658,7 @@
                         <div>
                             <img class="w-44 md:w-11/12" src="public/images/Screenshot_2023-10-18_200121-removebg-preview.png">
                         </div>
-                        <div class="mt-0 md:mt-3">
+                        <div class="mt-0 pl-14 md:mt-3">
                             <h3 class="text-lg font-semibold"><span class="text-xl font-normal">CODESLESS</span><br>IT company</h3>
                         </div>
                     </div>
@@ -658,7 +666,7 @@
                         <div>
                             <img class="w-44 md:w-64" src="public/images/Screenshot_2023-10-18_200149-removebg-preview.png">
                         </div>
-                        <div class="mt-0 md:mt-3 w-80">
+                        <div class="mt-0 pl-14 md:mt-3 w-80">
                             <h2 class="text-2xl font-semibold italic">Orange</h2>
                             <h3 class="text-sm">CORE TECHNOLOGY</h3>
                         </div>
@@ -667,7 +675,7 @@
                         <div>
                             <img class="w-44 md:w-auto" src="public/images/Screenshot_2023-10-18_200157-removebg-preview.png">
                         </div>
-                        <div class="mt-0 md:mt-3">
+                        <div class="mt-0 pl-14 md:mt-3">
                             <h2 class="text-lg">TECHHUB</h2>
                             <h3 class="text-xl font-semibold">Technology</h3>
                         </div>
@@ -676,7 +684,7 @@
                         <div>
                             <img class="w-44 md:w-auto" src="public/images/Screenshot_2023-10-18_200136-removebg-preview.png">
                         </div>
-                        <div class="mt-0 md:mt-3">
+                        <div class="mt-0 pl-14 md:mt-3">
                             <h2 class="font-semibold text-xl">GREENLAB</h2>
                             <h3 class="text-sm">TECHNOLOGY</h3>
                         </div>
@@ -706,7 +714,7 @@
                             <div><img  class="w-5 "src="public/images/icons8-instagram (2).svg"></div>
                         </div>
                     </div>
-                    <div class="pl-10 w-5/12">
+                    <div class="w-full md:w-5/12 pl-10 pt-5 md:pt-0">
                         <h3 class="text-xl font-semibold pb-7">IT Services</h3>
                         <ul>
                             <li class="pb-2">Software Development</li>
@@ -716,7 +724,7 @@
                             <li class="pb-2">Product Design</li>
                         </ul>
                     </div>
-                    <div class="pl-10">
+                    <div class="pt-5 md:pt-0 pl-10">
                         <h3 class="text-xl font-semibold pb-7">Contact Info</h3>
                         <div class="flex pb-5">
                             <div>
@@ -783,9 +791,9 @@
                 </div>
             </div>
             <div class="w-full bg-gradient-to-r from-gray-300 to-gray-100">
-                <div class="w-full block md:flex w-10/12 justify-between pt-5 m-auto pb-5 ">
+                <div class="w-full block p-10 md:flex w-10/12 justify-between pt-5 m-auto pb-5 ">
                     <div>
-                        <p class="font-light text-sm">@ 2023 All Rights Reserved Design & Developed  By Wilfred Mutwiri</p>
+                        <p class="font-light text-sm">&copy; 2023 All Rights Reserved Design & Developed  By Wilfred Mutwiri</p>
                     </div>
                     <div class="mt-5 md:mt-0">
                         <ul class="flex">
